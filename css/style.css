@@ -1,0 +1,41 @@
+
+body {
+font-family: 'Courier New', Courier, monospace;
+color: #F8F5F6;
+}
+span {
+    color: #AD9EB0;
+}
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.4s;
+    height: 2px;
+    width: 100%;
+    background-color: #4B3E3E;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover::after {
+    opacity: 1;
+}
+.hero-section {
+    background-color: #977E6B;
+    height: 75vh;
+}
+.sidebar-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #4B3E3E;
+    margin: 20px 0;
+}
