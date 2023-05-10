@@ -1,7 +1,8 @@
 
 body {
-font-family: 'Courier New', Courier, monospace;
+font-family:'Courier New', Courier, monospace;
 color: #F8F5F6;
+background-color: #977E6B;
 }
 span {
     color: #AD9EB0;
@@ -23,13 +24,10 @@ span {
 .nav-link:hover::after {
     opacity: 1;
 }
-.hero-section {
-    background-color: #977E6B;
-    height: 75vh;
-}
+
 .sidebar-social a {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     width: 40px;
     height: 40px;
@@ -38,4 +36,26 @@ span {
     text-decoration: none;
     background-color: #4B3E3E;
     margin: 20px 0;
+}
+
+.line {
+    border-right: 2px solid #AD9EB0;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+}
+
+.first-intro {
+    font-weight: bolder;
+    font-size: 15px;
+}
+.second-intro {
+    font-weight:bolder;
+    font-size: 45px;
+}
+.hero-paragraaf {
+    font-weight: bolder;
+    
 }
