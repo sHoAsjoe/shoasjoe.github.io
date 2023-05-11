@@ -1,15 +1,25 @@
-
 body {
-font-family:'Courier New', Courier, monospace;
-color: #F8F5F6;
-background-color: #977E6B;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F8F5F6;
+    background-color: #977E6B;
+    margin: 0;
+    padding: 0;
 }
+
 span {
+    color: #484345;
+    /* color: #AD9EB0; */
+}
+.dark-on-white {
     color: #AD9EB0;
+}
+.navbar {
+    transition: top 0.3s;
 }
 .nav-link {
     position: relative;
 }
+
 .nav-link::after {
     content: '';
     opacity: 0;
@@ -21,13 +31,14 @@ span {
     bottom: 0;
     left: 0;
 }
+
 .nav-link:hover::after {
     opacity: 1;
 }
 
 .sidebar-social a {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
@@ -51,11 +62,34 @@ span {
     font-weight: bolder;
     font-size: 15px;
 }
+
 .second-intro {
-    font-weight:bolder;
+    font-weight: bolder;
     font-size: 45px;
 }
+
 .hero-paragraaf {
     font-weight: bolder;
-    
 }
+
+.about {
+    height: 75vh;
+    background-color: #F7F8F7;
+    color: #4B3E3E;
+    font-size: small;
+    font-weight: bold;
+}
+
+.skills-css {
+    height: 80vh;
+    background-color: #484345;
+    color: #AD9EB0;
+    font: small;
+    font-weight: bold;
+}
+.card-body {
+    background-color: #977E6B;
+    box-shadow: 10px 10px 8px #949392;
+
+}
+
