@@ -4,6 +4,7 @@ body {
     background-color: #977E6B;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 span {
@@ -81,15 +82,35 @@ span {
 }
 
 .skills-css {
-    height: 80vh;
+    height: 100vh;
     background-color: #484345;
     color: #AD9EB0;
     font: small;
     font-weight: bold;
 }
+.card {
+    border: 3px solid #977E6B;
+    border-radius: 1%;
+
+}
 .card-body {
     background-color: #977E6B;
     box-shadow: 10px 10px 8px #949392;
+
+}
+
+.projects-css {
+    background-color:#F7F8F7;
+    
+}
+.small-cards {
+    border: 3px solid #977E6B;
+    border-radius: 3%;
+    transition: all 0.4s;
+
+}
+.small-cards:hover {
+    transform: scale(1.1);
 
 }
 
