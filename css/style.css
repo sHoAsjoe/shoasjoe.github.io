@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    color: #F8F5F6;
+    /* color: #F8F5F6; */
     background-color: #977E6B;
     margin: 0;
     padding: 0;
@@ -82,7 +82,7 @@ span {
 }
 
 .skills-css {
-    height: 100vh;
+    height: 75vh;
     background-color: #484345;
     color: #AD9EB0;
     font: small;
@@ -103,14 +103,31 @@ span {
     background-color:#F7F8F7;
     
 }
+.card-body-project {
+    background-color: #484345;
+    color: #F7F8F7;
+    font-size: small;
+    font-weight: bold;
+
+}
+
 .small-cards {
-    border: 3px solid #977E6B;
+    border: 3px solid #484345;
     border-radius: 3%;
+    box-shadow: 10px 10px 8px #949392;
+
     transition: all 0.4s;
 
 }
 .small-cards:hover {
     transform: scale(1.1);
 
+}
+
+.btn {
+    border: 0 solid transparent;
+    border-radius: 3%;
+    background-color: #F7F8F7;
+    color: #484345;
 }
 
