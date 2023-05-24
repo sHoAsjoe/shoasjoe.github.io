@@ -11,12 +11,16 @@ span {
     color: #484345;
     /* color: #AD9EB0; */
 }
+
 .dark-on-white {
     color: #AD9EB0;
 }
+
 .navbar {
     transition: top 0.3s;
+    position: fixed;
 }
+
 .nav-link {
     position: relative;
 }
@@ -88,11 +92,13 @@ span {
     font: small;
     font-weight: bold;
 }
+
 .card {
     border: 3px solid #977E6B;
     border-radius: 1%;
 
 }
+
 .card-body {
     background-color: #977E6B;
     box-shadow: 10px 10px 8px #949392;
@@ -100,9 +106,10 @@ span {
 }
 
 .projects-css {
-    background-color:#F7F8F7;
-    
+    background-color: #F7F8F7;
+
 }
+
 .card-body-project {
     background-color: #484345;
     color: #F7F8F7;
@@ -119,6 +126,7 @@ span {
     transition: all 0.4s;
 
 }
+
 .small-cards:hover {
     transform: scale(1.1);
 
@@ -129,5 +137,49 @@ span {
     border-radius: 3%;
     background-color: #F7F8F7;
     color: #484345;
+}
+
+.contact-page {
+    background-color: #F7F8F7;
+    border-top: #484345 1px solid;
+    height: 45vh;
+}
+
+.contact-btn {
+    width: 25vh;
+    background-color: #977E6B;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    text-decoration: none;
+}
+.underline {
+    text-decoration: none;
+    color: #484345;
+}
+
+ button:hover {  /*when hovered */
+    transform: translateY(-4px) translateX(-2px); /* move up and left*/
+    box-shadow: 2px 5px 0 0 black; /*move down and right*/
+}
+
+button:active { /* when clicked*/
+    transform: translateY(2px) translateX(1px); /* move down and right*/
+    box-shadow: 0 0 0 0 black; /* move up and left*/
+}
+
+.footer {
+    background-color: #484345;
+    color: #F7F8F7;
+    height: 5vh;
+    width: 100vw;
+    font-size: small;
+    font-weight: bold;
 }
 
