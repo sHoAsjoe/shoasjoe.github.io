@@ -11,3 +11,8 @@ window.onscroll = function() { // The onscroll event occurs when an element's sc
     }
     prevScrollpos = currentScrollPos; // The onscroll event occurs when an element's scrollbar is being scrolled.
 }
+
+const loader = document.querySelector(".preloader");
+window.addEventListener("load", function() {
+    loader.style.display = "none";
+});
