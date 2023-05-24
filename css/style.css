@@ -6,7 +6,15 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+.preloader {
+    background: #F7F8F7 url(../img/preloader.gif) no-repeat center center;
+    background-size: 100%;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
 
+}
 span {
     color: #484345;
     /* color: #AD9EB0; */
