@@ -92,7 +92,10 @@ span {
     font: small;
     font-weight: bold;
 }
-
+.progress-bar  {
+    background-color: #484345;
+  
+}
 .card {
     border: 3px solid #977E6B;
     border-radius: 1%;
@@ -101,7 +104,7 @@ span {
 
 .card-body {
     background-color: #977E6B;
-    box-shadow: 10px 10px 8px #949392;
+    box-shadow: 8px 8px 10px #949392;
 
 }
 
